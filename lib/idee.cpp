@@ -1,4 +1,5 @@
 #include "head.h"
+
 char	*ft_strupcase(char *str)
 {
     int	up;
@@ -11,4 +12,22 @@ char	*ft_strupcase(char *str)
         up++;
     }
     return (str);
+}
+
+char *addchar(char *str, char c)
+{
+    int i;
+    i = ft_strlen(str);
+    str[i] = c;
+    return (str);
+}
+
+int	ft_strlen(char *str)
+{
+    int	nbchar;
+
+    nbchar = 0;
+    while (*str++)
+        nbchar++;
+    return (nbchar);
 }
