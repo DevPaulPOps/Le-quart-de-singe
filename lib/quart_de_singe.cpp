@@ -5,9 +5,10 @@
 #include "quart_de_singe.h"
 
 
-char **stockstring(ifstream& fichier, char *str, char **tabstr,int& taille)
+char **stockstring(ifstream& fichier, char **tabstr,int& taille)
 {
     int i;//pour tester
+    char str[MAX_MOT + 1];
     while (fichier >> str)
     {
         char* newWord = new char[ft_strlen(str) + 1];
@@ -23,7 +24,6 @@ char **stockstring(ifstream& fichier, char *str, char **tabstr,int& taille)
         i++;//pour tester
     }
     fichier.close();
-    *str = NULL;
     return tabstr;
 }
 

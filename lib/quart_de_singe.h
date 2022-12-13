@@ -10,7 +10,14 @@
 #include <cassert>
 #include "ft_string.h"
 using namespace std;
-char    **stockstring(ifstream& fichier, char *str, char **tabstr,int& taille);
+
+enum {
+    MIN_MOT = 2,
+    MAX_MOT = 26,
+    MAX_SCORE = 1,
+};
+
+char    **stockstring(ifstream& fichier, char **tabstr,int& taille);
 void    detruire(char **str, int& taille);
 bool    is_in_the_file(char **tabstr, char *str);
 
