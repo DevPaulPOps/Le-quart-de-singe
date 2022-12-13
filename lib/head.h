@@ -1,3 +1,4 @@
+/*
 //
 // Created by perig on 23/11/2022.
 //
@@ -27,3 +28,4 @@ int	ft_strlen(char *str);
 char *addchar(char *str, char c);
 
 #endif //NEW_HEAD_H
+*/
