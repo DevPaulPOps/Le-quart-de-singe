@@ -1,3 +1,4 @@
+/*
 #include "head.h"
 
 char	*ft_strupcase(char *str)
