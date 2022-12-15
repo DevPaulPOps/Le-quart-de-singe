@@ -17,8 +17,28 @@ enum {
     MAX_SCORE = 1,
 };
 
-char    **stockstring(ifstream& fichier, char **tabstr,int& taille);
+typedef struct
+{
+    double score;
+    unsigned int numjoueur;
+}JOUEUR;
+
+typedef struct
+{
+    unsigned int nbrjoueur;
+    char *tabmot;
+    unsigned int tailletableau;
+    char *tabmotaverif;
+    char **monfichier;
+    unsigned int fichiertaille;
+    JOUEUR *joueur;
+}PARTIE;
+
+void    stockstring(ifstream& fichier, char **tabstr,unsigned int& taille);
 void    detruire(char **str, int& taille);
 bool    is_in_the_file(char **tabstr, char *str);
-
+bool    rechercheDichotomique(char** tabstr, int taille, char* str);
+void    presentation();
+void allouerJoueurs(PARTIE& partie);
+void allouerTableau(PARTIE& partie);
 #endif //NEW_QUART_DE_SINGE_H
