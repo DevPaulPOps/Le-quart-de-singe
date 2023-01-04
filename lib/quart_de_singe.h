@@ -53,7 +53,7 @@ void allouerTableau(PARTIE& partie);
  * @pre `types` doit être un tableau de caractères terminé par un caractère nul
  * @pre La longueur de `types` doit être supérieure ou égale à 2
  */
-void init(PARTIE* p, char *types);
+void init(PARTIE* p,const char *types);
 
 
 /**

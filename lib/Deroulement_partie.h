@@ -68,8 +68,7 @@ int verification2(PARTIE* p,const DICO* d, int indice);
  * @pre p != NULL
  * @pre d != NULL
  */
-void saisir(PARTIE* p,DICO* d, int indice, char typeJoueur);
-
+void saisir(PARTIE* p,const DICO* d,const int indice,const char typeJoueur);
 
 
 
