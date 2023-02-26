@@ -10,11 +10,8 @@
 /*                                                     :::++++++++::    :::++++++++:::         ::         */
 /*                                                                                                        */
 /* ****************************************************************************************************** */
-#include <iostream>
-#include <cassert>
-#include "Partie_joueur.h"
 #include "quart_de_singe.h"
-#include "ft_string.h"
+
 using namespace std;
 
 void presentation()

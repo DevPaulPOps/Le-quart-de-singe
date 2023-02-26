@@ -10,11 +10,9 @@
 /*                                                     :::++++++++::    :::++++++++:::         ::         */
 /*                                                                                                        */
 /* ****************************************************************************************************** */
-#include "quart_de_singe.h"
+
 #include "Partie_joueur.h"
-#include "ft_string.h"
-#include <iostream>
-#include <random>
+
 using namespace std;
 
 void allouerJoueurs(PARTIE& partie)
@@ -32,12 +30,9 @@ void classementJoueur(const PARTIE* p)
 {
     for (unsigned i = 0; i < p->nbrjoueur; ++i) {
         cout << p->joueur[i].numJoueur << p->joueur[i].typesJoueur << " : " << p->joueur[i].score;
-
-        if (i != p->nbrjoueur - 1) {
+        if (i != p->nbrjoueur - 1)
             cout << "; ";
-        }
     }
-
     cout << "\n";
 }
 

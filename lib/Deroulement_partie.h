@@ -21,6 +21,13 @@
 #include "quart_de_singe.h"
 #include "Partie_fichier.h"
 #include "struct.h"
+#include <cassert>
+#include "ft_string.h"
+#include <iostream>
+#include "quart_de_singe.h"
+#include "Partie_joueur.h"
+#include "ft_string.h"
+
 using namespace std;
 
 /**

@@ -10,6 +10,7 @@
 /*                                                     :::++++++++::    :::++++++++:::         ::         */
 /*                                                                                                        */
 /* ****************************************************************************************************** */
+
 /**
  * @file Partie_joueur.h
  * Projet SAE-S1.02 Comparaison d’approches algorithmiques
@@ -21,6 +22,9 @@
 #include "quart_de_singe.h"
 #include "Partie_fichier.h"
 #include "struct.h"
+#include "ft_string.h"
+#include <iostream>
+#include <random>
 using namespace std;
 
 

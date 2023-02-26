@@ -20,6 +20,10 @@
 #define PROJET_FINAL_QUART_DE_SINGE_H
 #include "struct.h"
 #include "Partie_fichier.h"
+#include <iostream>
+#include <cassert>
+#include "Partie_joueur.h"
+#include "ft_string.h"
 using namespace std;
 
 

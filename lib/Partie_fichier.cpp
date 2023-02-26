@@ -10,11 +10,8 @@
 /*                                                     :::++++++++::    :::++++++++:::         ::         */
 /*                                                                                                        */
 /* ****************************************************************************************************** */
-#include <iostream>
 #include "Partie_fichier.h"
-#include "Partie_joueur.h"
-#include "ft_string.h"
-#include "Deroulement_Partie.h"
+
 using namespace std;
 
 void allouerDico(DICO* d)
